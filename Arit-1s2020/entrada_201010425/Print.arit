@@ -46,8 +46,6 @@ main = (k = 55) => {
     println(divider2);
     println("Median iVector con trim:\t"+median(iVector,9));
     println("Median dVector con trim:\t"+median(dVector,9));
-    println("Median sVector con trim:\t"+median(sVector,"e"));
-    println("Median bVector con trim:\t"+median(bVector,true));
     println(divider)    
     println("Mode para entero, double, string, boolean");
     println(divider2)    
@@ -58,8 +56,6 @@ main = (k = 55) => {
     println(divider2)    
     println("Mode iVector con trim:\t"+mode(iVector,9));
     println("Mode dVector con trim:\t"+mode(dVector,9));
-    println("Mode sVector con trim:\t"+mode(sVector,"e"));
-    println("Median bVector con trim:\t"+mode(bVector,true));
     println(divider);
     println(divider);
     nummatrix0 = matrix(true, 3,9);
@@ -267,35 +263,24 @@ main(88)
 4	Mean para entero y double
 
 5	---------------------------------------------------------------------------------
-6	Mean iVector sin trim:	12
+6	Mean iVector sin trim:	12.375
 7	Mean dVector sin trim:	7.6
-8	Mean iVector con trim:	10
-9	Mean dVector con trim:	5.2
+8	Mean iVector con trim:	18.8889
+9	Mean dVector con trim:	10.75
 10	++++++++++++++++++++++++++++++++++++
 11	Median para entero, double, string, boolean
 12	---------------------------------------------------------------------------------
-13	Median iVector sin trim:	8
-14	Median dVector sin trim:	8.0
-15	Median sVector sin trim:	e
-16	Median bVector sin trim:	false
+13	Median iVector sin trim:	8.5
+14	Median dVector sin trim:	7.0
 17	---------------------------------------------------------------------------------
 18	Median iVector con trim:	30
 19	Median dVector con trim:	12.0
-20	Median sVector con trim:	f
-21	Median bVector con trim:	false
 22	++++++++++++++++++++++++++++++++++++
 23	Mode para entero, double, string, boolean
 24	---------------------------------------------------------------------------------
 25	Mode iVector sin trim:	30
 26	Mode dVector sin trim:	12.0
-27	Mode sVector sin trim:	e
-28	Mode bVector sin trim:	true
-29	---------------------------------------------------------------------------------
-30	Mode iVector con trim:	30
-31	Mode dVector con trim:	12.0
-32	Mode sVector con trim:	f
-33	Median bVector con trim:	false
-34	++++++++++++++++++++++++++++++++++++
+34	+++++++++++++++++++++++++++++++++++
 35	++++++++++++++++++++++++++++++++++++
 36	Todas las matrices
                           [,1]            [,2]            [,3]            [,4]            [,5]            [,6]            [,7]            [,8]            [,9]      
@@ -518,3 +503,4 @@ SEMANTICO UNABLE TO USE TYPE 1 ACCESS ASSIGN WITH LIST AND 3 PARAMS     144     
 SEMANTICO INDEX OUT OF BOUNDS 2                                         151         17
 
 *#
+#201314716
